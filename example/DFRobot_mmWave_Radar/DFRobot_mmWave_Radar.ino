@@ -17,7 +17,7 @@
 
 #include "DFRobot_mmWave_Radar.h"
 
-SoftwareSerial mySerial(2, 3);
+SoftwareSerial mySerial(3, 2);
 DFRobot_mmWave_Radar sensor(&mySerial);
 
 int ledPin = 13;
